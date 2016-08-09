@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	$r = new \App\Http\Controllers\Robo();
+    return $r->run();
 });
