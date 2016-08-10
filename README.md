@@ -1,33 +1,26 @@
-<html>
-  
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
-    rel="stylesheet" type="text/css">
-    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
-    rel="stylesheet" type="text/css">
-  </head>
-  
-  <body>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h3 class="panel-title">Panel title</h3>
-              </div>
-              <div class="panel-body">
-                <p>Panel content</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+# nr-challenge
 
-</html>
+#### Initializing the project
+
+Access the nr-challenge folder
+and type the following command
+
+```sh
+$ php artisan serve
+```
+
+Click the link below after running the above command
+
+* [http://localhost:8000/](http://localhost:8000/)
+
+
+#### Explaining about the code
+
+To be brief and quickly put the class running on the route.
+
+```php
+Route::get('/', function () {
+	$r = new \App\Http\Controllers\Robo();
+    return $r->run();
+});
+```
