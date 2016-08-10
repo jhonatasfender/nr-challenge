@@ -9,7 +9,8 @@ and type the following command
 $ php artisan serve
 ```
 
-Click the link below after running the above command
+Click the link below after running the above command.
+When you are accessing this link I ask you to wait a little that in a few minutes will show the result.
 
 * [http://localhost:8000/](http://localhost:8000/)
 
